@@ -1,0 +1,20 @@
+body{
+    background: white;
+   background-image:url(/Users/user/landing/Mapa_mundi.png);
+
+
+        
+}
+
+h1{
+    text-align: center;
+
+}
+h3{
+    text-align: justify;
+}
+
+label{
+    font-weight: bold;
+    margin-left: 5px;
+}

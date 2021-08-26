@@ -10,13 +10,17 @@
     <link rel="stylesheet" href="estilos.css">
     <title>Hello, world!</title>
   </head>
+
   <body>
-    <h1>Hello, world!</h1>
+    <h1>Registro de clientes</h1>
+    <br>
+    <br>
     <div class="container">
-        <h1 style="color:yellow">Hello World Again</h1>
+        <h3 >Agradeceremos , que introduzca sus datos para el registro:</h3>
+        <br>
       </div>
 
-    <h1>Hola a todos</h1>
+    
     <form class="row g-3 needs-validation" novalidate>
         <div class="col-md-4">
           <label for="validationCustom01" class="form-label">Nombre:</label>
@@ -24,6 +28,7 @@
           <div class="valid-feedback">
             Looks good!
           </div>
+
         </div>
         <div class="col-md-4">
           <label for="validationCustom02" class="form-label">Apellidos:</label>
@@ -32,17 +37,78 @@
             Looks good!
           </div>
        
+          
         </div>
+           <div class="row  " >
+             <div class="col-md-8">
+            <label for="validationCustom02" class="form-label">Nombre Empresa:</label>
+            <input type="text" class="form-control" id="validationCustom03" value="" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+
+          <div class="row  " >
+            <div class="col-md-3">
+           <label for="validationCustom02" class="form-label">Calle:</label>
+           <input type="text" class="form-control" id="validationCustom04" value="" required>
+           <div class="valid-feedback">
+             Looks good!
+           </div>
+         </div>
+        
+
+         <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">Colonia:</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+         </div>
+
+         <div class="col-md-2">
+          <label for="validationCustom05" class="form-label">Codigo Postal:</label>
+          <input type="text" class="form-control" id="validationCustom06" required>
+     
+          <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+          
+         
+
+          </div>
+  
+          <div class="row  " >
+            <div class="col-md-4">
+           <label for="validationCustom02" class="form-label">Télefono de contacto:</label>
+           <input type="text" class="form-control" id="validationCustom07" value="" required>
+           <div class="valid-feedback">
+             Looks good!
+           </div>
+         </div>
+  
+          <div class="col-md-4">
+            <label for="validationCustom05" class="form-label">Email:</label>
+            <input type="text" class="form-control" id="validationCustom08" required>
+            <br>
+            <div class="invalid-feedback">
+              Please provide a valid zip.
+            </div>
+          </div>
+  
+
+
+        
         <div class="col-md-6">
           <label for="validationCustom03" class="form-label">Ciudad:</label>
-          <input type="text" class="form-control" id="validationCustom03" required>
+          <input type="text" class="form-control" id="validationCustom09" required>
           <div class="invalid-feedback">            Please provide a valid city.
 
           </div>
         </div>
         <div class="col-md-3">
           <label for="validationCustom04" class="form-label">Estado:</label>
-          <select class="form-select" id="validationCustom04" required>
+          <select class="form-select" id="validationCustom10" required>
             <option selected disabled value="">Choose...</option>
             <option>...</option>
             <option>Aguascalientes</option>
@@ -77,28 +143,25 @@
             <option>Yucatán</option>
             <option>Zacatecas</option>
 
-
-
-
-
-
+   
           </select>
+
+          <br>
+          <br>
           <div class="invalid-feedback">
             Please select a valid state.
           </div>
+
         </div>
-        <div class="col-md-3">
-          <label for="validationCustom05" class="form-label">Zip</label>
-          <input type="text" class="form-control" id="validationCustom05" required>
-          <div class="invalid-feedback">
-            Please provide a valid zip.
-          </div>
-        </div>
+
+       
+   
+
         <div class="col-12">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
             <label class="form-check-label" for="invalidCheck">
-              Agree to terms and conditions
+              Acepto registro
             </label>
             <div class="invalid-feedback">
               You must agree before submitting.
@@ -106,7 +169,7 @@
           </div>
         </div>
         <div class="col-12">
-          <button class="btn btn-primary" type="submit">Submit form</button>
+          <button class="btn btn-primary" type="submit">Enviar Registro</button>
         </div>
       </form>
 
